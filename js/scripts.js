@@ -8,15 +8,14 @@ var pigLatin = function(arrayWords) {
   for (var i = 0; i <= arrayWords.length; i += 1) {
     for (var j = 0; j <= arrayVowels.length; j += 1) {
       for (var k = 0; k <= arrayOthers.length; k += 1) {
-        for (var l = 0; l <= arrayWords[i].split("").length; l += 1)
-          var arrayLetters = arrayWords[i].split("");
-            for (var l = 0; l <= arrayLetters.length ; l += 1)
-              if (arrayLetters[l] !== arrayVowels[x] {
-                arrayWords[i].substr(i) + arrayWords[i].substr(i - 1, i + 1);
-            } else if (arrayLetters[l] === arrayOther[k]) {
-                arrayWords[i].substr(i) + arrayWords[i].substring(i - 1, i + 1);
-            } else (arrayWords[i].charAt(i) === arrayVowels[x]) {
-                arrayWords[i].concat("ay");
+        var arrayLetters = arrayWords[i].split("");
+          for (var l = 0; l <= arrayLetters.length ; l += 1)
+            if (arrayLetters[l] !== arrayVowels[x] {
+              arrayWords[i].substr(i) + arrayWords[i].substr(i - 1, i + 1);
+          } else if (arrayLetters[l] === arrayOther[k]) {
+              arrayWords[i].substr(i) + arrayWords[i].substring(i - 1, i + 1);
+          } else (arrayWords[i].charAt(i) === arrayVowels[x]) {
+              arrayWords[i].concat("ay");
 
 
   // }

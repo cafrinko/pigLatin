@@ -2,19 +2,22 @@
 
  /* apparently JS doesn't know what user input is yet, we can't use it here */
 var arrayVowels = ["a", "e", "i", "o", "u"];
-
+var arrayOther = ["qu"];
 
 var pigLatin = function(arrayWords) {
   for (var i = 0; i <= arrayWords.length; i += 1) {
-      for (var x = 0; x <= arrayVowels.length; x += 1) {
-      if (arrayWords[i].charAt(0) === arrayVowels[x]) {
-        alert(arrayWords[i] + "ay");
-      // } else if ((arrayWords[0] !== arrayVowels[x]) && (arrayWords[1] === arrayVowels[x])) {
-      //   arrayWords.slice(1, i) + "ay";
-      //
-      // } else if ((arrayWords[0] !== arrayVowels[x]) && (arrayWords[1] !== arrayVowels[x]) && (arrayWords[2] === arrayVowels[x])) {
-      //       arrayLetters +
-      //   alert("not a vowel");
+    for (var j = 0; j <= arrayVowels.length; j += 1) {
+      for (var k = 0; k <= arrayOthers.length; k += 1) {
+        for (var l = 0; l <= arrayWords[i].split("").length; l += 1)
+          var arrayLetters = arrayWords[i].split("");
+            for (var l = 0; l <= arrayLetters.length ; l += 1)
+              if (arrayLetters[l] !== arrayVowels[x] {
+                arrayWords[i].substr(i) + arrayWords[i].substr(i - 1, i + 1);
+            } else if (arrayLetters[l] === arrayOther[k]) {
+                arrayWords[i].substr(i) + arrayWords[i].substring(i - 1, i + 1);
+            } else (arrayWords[i].charAt(i) === arrayVowels[x]) {
+                arrayWords[i].concat("ay");
+
 
   // }
   // arrayWords.forEach(function(word){
@@ -26,7 +29,8 @@ var pigLatin = function(arrayWords) {
     }
   };
 
-
+  for (var k = 0; k <= arrayOthers.length; k += 1) {
+    for (var l = 0; l <= arrayLetters.length; l += 1) {
 
 
 // user interface logic
